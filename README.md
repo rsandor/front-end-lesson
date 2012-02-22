@@ -1,4 +1,5 @@
-= Front-end Project Starter Kit
+Front-end Project Starter Kit
+==
 
 This contains all of the files needed to display the three major portions of front-end
 engineering
