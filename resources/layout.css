@@ -1,0 +1,37 @@
+/*
+ * File: layout.css
+ *
+ * This CSS file defines the "layout" of each of the major sections for our web page.
+ * We've chosen a classic web layout with the navigation on the left and the main page
+ * content on the right.
+ * 
+ */
+
+.content {
+	width: 940px;
+	margin: 0 auto;
+}
+
+#nav {
+	width: 240px;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#main {
+	width: 659px;
+	padding-left: 20px;
+	margin: 0;
+	float: left;
+}
+
+#copyright {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+/* Ignore this for now, it is special code needed to fix the layout after using the "float" rules above. */
+.clearfix:before, .clearfix:after { content:""; display:table; }
+.clearfix:after { clear:both; }
+.clearfix { zoom:1; }

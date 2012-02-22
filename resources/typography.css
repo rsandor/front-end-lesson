@@ -1,0 +1,61 @@
+/*
+	File: typography.css
+	This file defines the text or "typographic" styles for the page.
+*/
+
+
+/*
+	We can set the overall font for the document by applying the "font-family" rule to
+ 	to the body tag (which encapsulates all of the visible tags on the page).
+
+	Try the following below to see how each font-family looks:
+	
+	font-family: verdana;
+	font-family: courier;
+	font-family: sans-serif;
+	font-family: helvetica;
+	
+*/
+body {
+	font-family: helvetica;
+}
+
+
+/*
+	In order to make the page more readable we can space out the height of each line in our paragraph
+	tags using the "line-height" rule.
+*/
+p {
+	line-height: 24px;
+}
+
+
+/*
+	Let's get rid of those ugly bullets in the navigation and make the text a little bigger so the
+	user can more easily navigate the page.
+*/
+#nav {
+	font-size: 20px;
+}
+
+#nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#nav ul li {
+	height: 40px;
+}
+
+
+/*
+	Finally let's make our copyright section look nice by aligning the text to the center and making
+	it italic.
+*/
+#copyright {
+	text-align: center;
+	font-style: italic;
+}
+
+

@@ -1,0 +1,31 @@
+
+
+body {
+	background: #f4f4f4;
+}
+
+h1, h2, h3 {
+	color: #222;
+}
+
+#header  {
+	border-bottom: 1px solid #999;
+}
+
+#main {
+	border-left: 1px solid #999;
+}
+
+p {
+	color: #555;
+}
+
+a {
+	color: green;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
